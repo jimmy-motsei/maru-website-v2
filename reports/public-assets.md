@@ -1,0 +1,113 @@
+# Public Asset Comparison
+
+## Shared files
+- apple-touch-icon.png
+- assets/css/site-overrides.css
+- brand/logo-dark.png
+- brand/logo-light.png
+- brand/logo@2x.png
+- brand/new_maru_logo_neutral-320.avif
+- brand/new_maru_logo_neutral-320.webp
+- brand/new_maru_logo_neutral-640.avif
+- brand/new_maru_logo_neutral-640.webp
+- brand/new_maru_logo_neutral-960.avif
+- brand/new_maru_logo_neutral-960.png
+- brand/new_maru_logo_neutral-960.webp
+- favicons/browserconfig.xml
+- favicons/favicon-512-512-neutral.svg
+- favicons/favicon.svg
+- favicons/icon-192.png
+- favicons/icon-512.png
+- favicons/maskable-512.png
+- favicons/mstile-150x150.png
+- favicons/site.webmanifest
+- images/customers/black_female_280_280.png
+- images/customers/black_male_280_280.png
+- images/customers/white_female_280_280.png
+- images/customers/white_male_280_280.png
+- images/ecosystem/github.svg
+- images/ecosystem/hubspot.svg
+- images/ecosystem/make.svg
+- images/ecosystem/meta.svg
+- images/ecosystem/notion.svg
+- images/ecosystem/openai.svg
+- images/ecosystem/sheets.svg
+- images/ecosystem/zapier.svg
+- images/founder-320.avif
+- images/founder-320.jpeg
+- images/founder-320.webp
+- images/founder.jpeg
+- images/partners/b2b_bw_logo.png
+- images/partners/digivation_bw_logo.png
+- images/partners/dikeme_bw_logo.png
+- images/partners/embryo_bw_logo.png
+- images/partners/singila_bw_logo.png
+- images/partners/xarra_bw_logo.png
+- images/services/Market-Segmentation-Ai.png
+- images/services/aI-integration-advisory.png
+- images/services/aI-office-operations management.png
+- images/services/ai-chatbot-assistant.png
+- images/services/ai-dashboard-analytics.png
+- images/services/ai-marketing-sales.png
+- images/services/ai-workflow-optimisation.png
+- images/services/ai-workflows-optimisation.png
+- images/services/create-automate-thrive.png
+- images/services/faq-section.png
+- images/services/hero-services.png
+- images/services/join-south-africas automation-movement.png
+- images/services/whatsApp-based-aI solutions.png
+- images/works/Bizinsight_ai.png
+- images/works/Smart_Guest_ai.png
+- images/works/ai_academy_1280_720.jpg
+- images/works/ai_adoption-1280.png
+- images/works/ai_agent.png
+- images/works/ai_business_transformation-1280.png
+- images/works/ai_regulation_sketch-1280.png
+- images/works/ai_skills-1280.png
+- images/works/custom_ai_1280_720.jpg
+- images/works/generative_ai_productivity-1280.png
+- images/works/robot_hand_network-320.avif
+- images/works/robot_hand_network-320.webp
+- images/works/robot_hand_network-640.avif
+- images/works/robot_hand_network-640.webp
+- images/works/robot_hand_network-960.avif
+- images/works/robot_hand_network-960.png
+- images/works/robot_hand_network-960.webp
+- legacy/css/plugins/bootstrap-grid.css
+- legacy/css/plugins/fancybox.min.css
+- legacy/css/plugins/font-awesome.min.css
+- legacy/css/plugins/swiper.min.css
+- legacy/css/style copy.css
+- legacy/css/style.css
+- legacy/js/analytics-loader.js
+- legacy/js/calendly-loader.js
+- legacy/js/consent-manager.js
+- legacy/js/contact-form-enhancer.js
+- legacy/js/cookie-banner.js
+- legacy/js/form-performance-monitor.js
+- legacy/js/form-performance-optimizer.js
+- legacy/js/main.js
+- legacy/js/newsletter-forms-secure.js
+- legacy/js/plugins/ScrollTo.min.js
+- legacy/js/plugins/ScrollTrigger.min.js
+- legacy/js/plugins/fancybox.min.js
+- legacy/js/plugins/gsap.min.js
+- legacy/js/plugins/jquery.min.js
+- legacy/js/plugins/smooth-scroll.js
+- legacy/js/plugins/swiper.min.js
+- legacy/js/plugins/swup.min.js
+- legacy/js/plugins/tilt.js
+- legacy/js/safari-scroll-fix.js
+- legacy/js/smooth-anchors.js
+- media/hero.mp4
+- next.svg
+- og/default.png
+- site.webmanifest
+- vercel.svg
+- window.svg
+
+## Only in maru-website-v2
+- sitemap.xml
+
+## Only in maru-website-rebuild
+- (none)
