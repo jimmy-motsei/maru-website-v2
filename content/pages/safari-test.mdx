@@ -1,0 +1,19 @@
+---
+title: "Safari Scroll Test"
+---
+
+Scroll Test Page
+
+Height:
+
+Scroll:
+
+# Section 1 - Should be scrollable
+
+# Section 2 - Keep scrolling
+
+# Section 3 - Almost there
+
+# Section 4 - Final section
+
+function updateDebug() { document.getElementById("height").textContent = document.body.scrollHeight + "px"; document.getElementById("scroll").textContent = window.pageYOffset + "px"; } updateDebug(); window.addEventListener("scroll", updateDebug); window.addEventListener("resize", updateDebug); // Test programmatic scrolling setTimeout(() => { window.scrollTo(0, 500); console.log("Programmatic scroll test - position:", window.pageYOffset); }, 2000);

@@ -1,0 +1,46 @@
+---
+title: "Debug Main Page"
+---
+
+**Debug Info:**
+
+Body Height: \-
+
+Window Height: \-
+
+Can Scroll: \-
+
+Scroll Position: \-
+
+HTML Overflow: \-
+
+Body Overflow: \-
+
+Body Display: \-
+
+Body Position: \-
+
+  
+Test Scroll Force Height
+
+# Section 1
+
+This should be scrollable
+
+# Section 2
+
+Keep scrolling down
+
+# Section 3
+
+Almost there
+
+# Section 4
+
+Keep going
+
+# Section 5
+
+Final section
+
+function updateDebug() { const bodyHeight = document.body.scrollHeight; const windowHeight = window.innerHeight; const canScroll = bodyHeight > windowHeight; const scrollPos = window.pageYOffset; const htmlOverflow = getComputedStyle( document.documentElement ).overflow; const bodyOverflow = getComputedStyle(document.body).overflow; const bodyDisplay = getComputedStyle(document.body).display; const bodyPosition = getComputedStyle(document.body).position; document.getElementById("bodyHeight").textContent = bodyHeight + "px"; document.getElementById("windowHeight").textContent = windowHeight + "px"; document.getElementById("canScroll").textContent = canScroll ? "YES" : "NO"; document.getElementById("scrollPos").textContent = scrollPos + "px"; document.getElementById("htmlOverflow").textContent = htmlOverflow; document.getElementById("bodyOverflow").textContent = bodyOverflow; document.getElementById("bodyDisplay").textContent = bodyDisplay; document.getElementById("bodyPosition").textContent = bodyPosition; } function testScroll() { console.log("Testing scroll..."); window.scrollTo(0, 500); setTimeout(() => { console.log("Scroll position after test:", window.pageYOffset); updateDebug(); }, 100); } function forceHeight() { console.log("Forcing height..."); document.body.style.height = "300vh"; document.body.style.backgroundColor = "red"; updateDebug(); } // Update debug info updateDebug(); window.addEventListener("scroll", updateDebug); window.addEventListener("resize", updateDebug); // Auto-test after 2 seconds setTimeout(() => { console.log("Auto-testing scroll..."); testScroll(); }, 2000); // Log initial state console.log("Initial state:"); console.log("Body height:", document.body.scrollHeight); console.log("Window height:", window.innerHeight); console.log( "Can scroll:", document.body.scrollHeight > window.innerHeight );

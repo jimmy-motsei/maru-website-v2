@@ -1,0 +1,8 @@
+{
+  "name": "Maru",
+  "short_name": "Maru",
+  "icons": [],
+  "theme_color": "#10B981",
+  "background_color": "#FFFFFF",
+  "display": "standalone"
+}

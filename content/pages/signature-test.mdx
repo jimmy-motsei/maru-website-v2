@@ -1,0 +1,11 @@
+---
+title: "Signature Asymmetry Test"
+---
+
+### Signature Asymmetry Test
+
+Asymmetry ON Asymmetry OFF
+
+Toggle asymmetry to see the difference. On mobile (<768px), asymmetry is automatically disabled for readability.
+
+function toggleAsymmetry(state) { const container = document.querySelector('\[data-sig="card"\]'); if (container) { container.setAttribute("data-asym", state); } // Update button states document .getElementById("btn-on") .classList.toggle("active", state === "on"); document .getElementById("btn-off") .classList.toggle("active", state === "off"); } // Load the signature content fetch("signature.html") .then((response) => response.text()) .then((html) => { // Extract just the table content const parser = new DOMParser(); const doc = parser.parseFromString(html, "text/html"); const table = doc.querySelector('table\[data-sig="card"\]'); if (table) { document.getElementById("signature-container").appendChild(table); } }) .catch((error) => { console.error("Error loading signature:", error); document.getElementById("signature-container").innerHTML = "<p>Error loading signature. Please ensure signature.html is accessible.</p>"; });

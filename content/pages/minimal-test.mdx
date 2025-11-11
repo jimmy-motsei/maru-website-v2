@@ -1,0 +1,11 @@
+---
+title: "Minimal Safari Test"
+---
+
+BOX 1
+
+BOX 2
+
+BOX 3
+
+console.log("Page loaded"); console.log("Body height:", document.body.scrollHeight); console.log("Window height:", window.innerHeight); console.log( "Can scroll:", document.body.scrollHeight > window.innerHeight ); // Test scroll after 1 second setTimeout(() => { console.log("Testing scroll..."); window.scrollTo(0, 500); setTimeout(() => { console.log("Scroll position:", window.pageYOffset); }, 100); }, 1000);

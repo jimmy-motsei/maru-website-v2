@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "maru-website-v2"
-  }
+    "default": "maru-website-v2",
+    "Stagingv2": "maruonline-v2"
+  },
+  "targets": {},
+  "etags": {}
 }

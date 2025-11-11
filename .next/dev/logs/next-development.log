@@ -1,0 +1,4 @@
+[00:00:15.780] Server  LOG      ✓ Ready in 10.1s
+[00:00:52.618] Server  LOG      ○ Compiling /_not-found/page ...
+[00:01:44.562] Server  WARN     ⚠ Cross origin request detected from 9000-firebase-maru-website-v2git-1762769786346.cluster-ikslh4rdsnbqsvu5nw3v4dqjj2.cloudworkstations.dev to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins

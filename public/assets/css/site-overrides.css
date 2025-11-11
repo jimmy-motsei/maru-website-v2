@@ -1,0 +1,42 @@
+/* Ashley alignment overrides */
+:root {
+  --maru-cta-circle-size: 44px;
+  --maru-cta-circle-bg: rgb(61, 184, 198);
+  --maru-cta-circle-bg-hover: rgb(0, 170, 191);
+  --maru-cta-circle-icon: rgb(0, 0, 0);
+}
+
+.mil-services-grid .mil-button.mil-icon-button-sm {
+  width: var(--maru-cta-circle-size);
+  height: var(--maru-cta-circle-size);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background-color: var(--maru-cta-circle-bg);
+  transition: background-color 0.3s ease;
+}
+
+.mil-services-grid .mil-button.mil-icon-button-sm .mil-arrow {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+  background: none;
+  fill: var(--maru-cta-circle-icon);
+}
+
+.mil-services-grid .mil-button.mil-icon-button-sm .mil-arrow path {
+  fill: var(--maru-cta-circle-icon);
+}
+
+.mil-services-grid .mil-button.mil-icon-button-sm:hover,
+.mil-services-grid .mil-button.mil-icon-button-sm:focus-visible {
+  background-color: var(--maru-cta-circle-bg-hover);
+}
+
+.mil-services-grid .mil-button.mil-icon-button-sm:focus-visible {
+  outline: 2px solid var(--maru-cta-circle-icon);
+  outline-offset: 2px;
+}
